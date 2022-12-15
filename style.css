@@ -6,6 +6,35 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+:root {
+  --primary-red: hsl(1, 90%, 64%);
+  --primary-blue: hsl(219, 85%, 26%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-vlight-grayish-blue: hsl(210, 60%, 98%);
+  --neutral-light-grayish-blue1: hsl(211, 68%, 94%);
+  --neutral-light-grayish-blue2: hsl(205, 33%, 90%);
+  --neutral-grayish-blue: hsl(219, 14%, 63%);
+  --neutral-dark-grayish-blue: hsl(219, 12%, 42%);
+  --neutral-vdark-grayish-blue: hsl(224, 21%, 14%);
+}
+
+.notifs__container {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.28) 0 2px 8px;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.notifs__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
