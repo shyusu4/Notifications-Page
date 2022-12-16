@@ -3,7 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
@@ -38,6 +45,11 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.notifs__header > h1 > span {
+  background-color: var(--primary-blue);
+  color: var(--neutral-white);
 }
 
 .notif-item {
