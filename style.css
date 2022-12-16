@@ -29,7 +29,7 @@
 body {
   display: grid;
   background-color: var(--neutral-vlight-grayish-blue2);
-  font-size: small;
+  font-size: 15px;
 }
 
 img {
@@ -40,7 +40,7 @@ img {
 .img-container {
   display: flex;
   justify-content: flex-end;
-  width: 38%;
+  width: 31%;
 }
 
 .notifs__container {
@@ -63,7 +63,7 @@ img {
 
 .notifs__header > h1 {
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .notifs__header > h1 > span {
