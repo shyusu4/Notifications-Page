@@ -27,7 +27,9 @@
 }
 
 body {
+  display: grid;
   background-color: var(--neutral-vlight-grayish-blue2);
+  font-size: small;
 }
 
 img {
@@ -45,12 +47,9 @@ img {
   border-radius: 10px;
   box-shadow: var(--neutral-light-grayish-blue1) 0 2px 8px;
   background-color: var(--neutral-white);
-  transform: translate(-50%, -50%);
-  width: 48%;
-  padding: 1.5rem 1rem 0.5rem 1rem;
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  width: 45%;
+  padding: 1.5% 1% 0.1% 1%;
+  place-self: center;
 }
 
 .notifs__header {
@@ -63,12 +62,12 @@ img {
 
 .notifs__header > h1 {
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .notifs__header > h1 > span {
   font-weight: 500;
-  font-size: 15px;
+  font-size: small;
   background-color: var(--primary-blue);
   color: var(--neutral-white);
   padding: 4px 9px;
