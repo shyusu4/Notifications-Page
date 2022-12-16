@@ -9,8 +9,7 @@
 @font-face {
   font-family: 'Plus Jakarta Sans';
   src: url('./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500 800;
 }
 
 :root {
@@ -29,12 +28,18 @@ body {
   background-color: var(--neutral-vlight-grayish-blue);
 }
 
+img {
+  height: 2.5rem;
+  width: auto;
+}
+
 .notifs__container {
   border-radius: 10px;
   box-shadow: var(--neutral-light-grayish-blue1) 0 2px 8px;
   background-color: var(--neutral-white);
   transform: translate(-50%, -50%);
-  padding: 2rem;
+  width: 48%;
+  padding: 1.5rem 1rem 0.5rem 1rem;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -45,17 +50,33 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0 1rem;
+}
+
+.notifs__header > h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .notifs__header > h1 > span {
+  font-weight: 500;
+  font-size: 15px;
   background-color: var(--primary-blue);
   color: var(--neutral-white);
+  padding: 4px 9px;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 
 .notif-item {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin: 1.5rem;
+}
+
+.notif-item b {
+  font-weight: 800;
 }
 
 .notif-item__content {
