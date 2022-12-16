@@ -58,6 +58,7 @@ img {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0 1rem;
   margin: 0 auto 1.5rem;
 }
 
