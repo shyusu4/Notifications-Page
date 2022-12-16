@@ -19,6 +19,7 @@
   --neutral-vlight-grayish-blue: hsl(210, 60%, 98%);
   --neutral-light-grayish-blue1: hsl(211, 68%, 94%);
   --neutral-light-grayish-blue2: hsl(205, 33%, 90%);
+  --neutral-light-grayish-blue3: hsl(200, 7%, 39%);
   --neutral-grayish-blue: hsl(219, 14%, 63%);
   --neutral-dark-grayish-blue: hsl(219, 12%, 42%);
   --neutral-vdark-grayish-blue: hsl(224, 21%, 14%);
@@ -70,18 +71,48 @@ img {
 
 .notif-item {
   display: flex;
-  align-items: center;
   gap: 1rem;
-  margin: 1.5rem;
+  padding: 1rem;
+  margin: 0.6rem;
+  border-radius: 5px;
 }
 
-.notif-item b {
+.notif-item:nth-child(1),
+.notif-item:nth-child(2),
+.notif-item:nth-child(3) {
+  background-color: var(--neutral-light-grayish-blue1);
+}
+
+.notif-item__content b {
   font-weight: 800;
 }
 
 .notif-item__content {
   display: flex;
   flex-direction: column;
+}
+
+.notif-item__content > p > span {
+  color: var(--neutral-light-grayish-blue3);
+}
+
+.notif-item__content > span {
+  color: var(--neutral-grayish-blue);
+}
+
+.notif-item__content .message {
+  border: 0.5px solid var(--neutral-light-grayish-blue2);
+  color: var(--neutral-light-grayish-blue3);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.gray {
+  color: var(--neutral-dark-grayish-blue);
+}
+
+.blue {
+  color: var(--primary-blue);
 }
 
 .attribution {
