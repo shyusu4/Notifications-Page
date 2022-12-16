@@ -49,6 +49,7 @@ img {
   background-color: var(--neutral-white);
   width: 45%;
   padding: 1.5% 1% 0.1% 1%;
+  margin: 2% 0;
   place-self: center;
 }
 
@@ -124,6 +125,7 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 0.8% 0;
 }
 
 .attribution a {
