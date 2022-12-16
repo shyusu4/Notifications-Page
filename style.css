@@ -16,7 +16,8 @@
   --primary-red: hsl(1, 90%, 64%);
   --primary-blue: hsl(219, 85%, 26%);
   --neutral-white: hsl(0, 0%, 100%);
-  --neutral-vlight-grayish-blue: hsl(210, 60%, 98%);
+  --neutral-vlight-grayish-blue1: hsl(214, 54%, 97%);
+  --neutral-vlight-grayish-blue2: hsl(210, 60%, 98%);
   --neutral-light-grayish-blue1: hsl(211, 68%, 94%);
   --neutral-light-grayish-blue2: hsl(205, 33%, 90%);
   --neutral-light-grayish-blue3: hsl(200, 7%, 39%);
@@ -26,12 +27,18 @@
 }
 
 body {
-  background-color: var(--neutral-vlight-grayish-blue);
+  background-color: var(--neutral-vlight-grayish-blue2);
 }
 
 img {
   height: 2.5rem;
   width: auto;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
 }
 
 .notifs__container {
@@ -80,7 +87,7 @@ img {
 .notif-item:nth-child(1),
 .notif-item:nth-child(2),
 .notif-item:nth-child(3) {
-  background-color: var(--neutral-light-grayish-blue1);
+  background-color: var(--neutral-vlight-grayish-blue1);
 }
 
 .notif-item__content b {
