@@ -168,3 +168,10 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 768px) {
+  .notifs__container {
+    margin-top: 5%;
+    width: 85%;
+  }
+}
