@@ -77,6 +77,13 @@ img {
   border-radius: 5px;
 }
 
+.notifs__header > button {
+  color: var(--neutral-grayish-blue);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
 .notif-item {
   display: flex;
   gap: 1rem;
