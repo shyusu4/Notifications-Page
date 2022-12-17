@@ -6,7 +6,7 @@ function toggleBadges() {
   for (const dot of dots) {
     if (dot.style.display === 'none') {
       dot.style.display = 'inline-block';
-      notifsCounter.textContent = '3';
+      notifsCounter.textContent = dots.length;
     } else {
       dot.style.display = 'none';
       notifsCounter.textContent = '0';
