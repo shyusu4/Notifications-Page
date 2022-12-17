@@ -33,8 +33,14 @@ body {
 }
 
 img {
+  cursor: pointer;
   height: 2.5rem;
   width: auto;
+}
+
+img:hover {
+  border: 2px solid var(--neutral-light-grayish-blue1);
+  border-radius: 8px;
 }
 
 .img-container {
