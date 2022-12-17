@@ -78,10 +78,16 @@ img {
 }
 
 .notifs__header > button {
+  font-weight: 600;
+  font-size: 0.9rem;
   color: var(--neutral-grayish-blue);
   cursor: pointer;
   background: none;
   border: none;
+}
+
+.notifs__header > button:hover {
+  color: var(--primary-blue);
 }
 
 .notif-item {
