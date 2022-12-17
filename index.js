@@ -6,8 +6,10 @@ function toggleBadges() {
   for (const dot of dots) {
     if (dot.style.display === 'none') {
       dot.style.display = 'inline-block';
+      notifsCounter.textContent = '3';
     } else {
       dot.style.display = 'none';
+      notifsCounter.textContent = '0';
     }
   }
 }
