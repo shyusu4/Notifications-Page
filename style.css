@@ -105,7 +105,12 @@ img {
 }
 
 .notif-item__content b {
+  cursor: pointer;
   font-weight: 800;
+}
+
+.notif-item__content b:hover {
+  color: var(--primary-blue);
 }
 
 .notif-item__content {
