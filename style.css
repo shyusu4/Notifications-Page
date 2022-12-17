@@ -129,9 +129,17 @@ img {
 .notif-item__content .message {
   border: 0.5px solid var(--neutral-light-grayish-blue2);
   color: var(--neutral-light-grayish-blue3);
+  cursor: pointer;
   border-radius: 5px;
   padding: 2% 3%;
   margin: 2% 5% 0 0;
+}
+
+.notif-item__content .message:hover {
+  background-color: var(--neutral-light-grayish-blue1);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
 }
 
 .gray {
