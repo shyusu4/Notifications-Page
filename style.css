@@ -26,7 +26,7 @@
   --neutral-vdark-grayish-blue: hsl(224, 21%, 14%);
 }
 
-body {
+main {
   display: grid;
   background-color: var(--neutral-vlight-grayish-blue2);
   font-size: 15px;
